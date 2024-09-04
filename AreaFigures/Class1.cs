@@ -18,11 +18,6 @@ namespace AreaFigures
             double p = (a + b + c) / 2;
             return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
         }
-
-
-    }
-    public class Triangle : Figures
-    {
         //Метод который возврощает true когда треугольник прямоугольный
         public bool RightTriangle(int a, int b, int c)
         {
@@ -36,9 +31,6 @@ namespace AreaFigures
             double p = (a + b + c) / 2;
             return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
         }
-    }
-    public class Circle : Figures
-    {
         //Метод для поска площади круна
         public double AreaCircle(int r) => Math.PI * (r * r);
     }
